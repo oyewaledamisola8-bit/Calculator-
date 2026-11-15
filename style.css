@@ -84,3 +84,25 @@
     outline: 2px solid #b5bb73;
     border: none;
 }
+
+.togglebtn {
+    border: 2px solid #4e1a3f;
+    padding: 2px;
+    margin: 8px 0 0 15px;
+    font-size: 1.4rem;
+    background: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d61c1c;
+}
+
+.togglebtn:focus {
+    background: #d61c1c;
+     color: #fff;
+     border: none;
+}
+
+@media screen and (max-width:540px) {
+    .calc-body {
+        margin: 50px auto 0 auto;
+    }
+}

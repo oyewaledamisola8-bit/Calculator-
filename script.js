@@ -9,7 +9,7 @@ function togglebtn() {
     else {
         document.body.style.backgroundColor = 'white';
         document.body.style.color = 'black';
-        document.body.innerHTML = "Light";
+       
     }
     isDark = !isDark;
 };
